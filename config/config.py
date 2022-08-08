@@ -25,20 +25,20 @@ API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001473548283, -1001687155877]
+    BLACKLIST_CHAT = [-1001748391597, -1001473548283, -1001687155877]
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
-BOT_VER = "1.0@main"
-BRANCH = "main"
+BOT_VER = "1.0@KitUb"
+BRANCH = "KitUb"
 CHANNEL = getenv("CHANNEL", "bebasterserahya")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    b64decode("Z2hwX3R2ZE8yWmw4Y3V2cG1uTjFvaEpEMTFjTEtCdGJKUTBzZkZyaw==").decode(
+    b64decode("Z2hwX3JSU1NzOFp5bkIxV00xd1NXNlpLdFBjUGR3cHUxYTJtWGpwMQ==").decode(
         "utf-8"
     ),
 )
-GROUP = getenv("GROUP", "CilikSupport")
+GROUP = getenv("GROUP", "SharingUserbot")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
